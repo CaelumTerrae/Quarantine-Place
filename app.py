@@ -12,7 +12,7 @@ def after_request(response):
 # homepage route
 @app.route('/')
 def hello():
-    return "Hello World!"
+    return render_template("index.html")
 
 # run
 if __name__ == '__main__':
