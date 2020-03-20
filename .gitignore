@@ -1,0 +1,12 @@
+# Elastic Beanstalk Files
+.elasticbeanstalk/*
+!.elasticbeanstalk/*.cfg.yml
+!.elasticbeanstalk/*.global.yml
+
+.DS_Store
+app.pyc
+static/.DS_Store
+static/css/.DS_Store
+virt/
+__pycache__/
+secrets.py
